@@ -1,0 +1,881 @@
+/*==================================================
+ * ------------------*- GERAL -*-------------------
+ * ===============================================*/ 
+
+body{
+    font-family: 'Montserrat', 'Roboto',  sans-serif;
+}
+
+
+.container::after{
+    box-shadow: 0px 1px 14px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    width: 100%;
+    height: 0 auto;
+    background-color: aqua;
+}
+
+
+/*==================================================
+ * Aside ** GERAL **
+ * ===============================================*/
+
+.aside-left{
+    position: absolute;
+    z-index: 1;
+}
+
+
+/*==================================================
+ * Photo do PERFIL 
+ * ===============================================*/
+
+.photo-perfil{
+    
+}
+
+.photo-perfil img{
+    width: 290px;
+}
+
+/*==================================================
+ * Nome do candidato 
+ * ===============================================*/
+
+
+.name{
+    background-color: #4789c3;
+    color: #FFFFFF;
+    width: 330px;
+    padding: 5px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top: 8px solid #125da5;
+}
+
+.name h1{ 
+    margin-left: 30px;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+
+/*==================================================
+ * Container Informações do candidato 
+ * ===============================================*/
+
+.informacoes{
+    background-color: #EBEBE8;
+    height: 0 auto;
+    width: 290px;
+}
+
+/* ==
+INFORMAÇÕES - ENDEREÇO
+== */
+
+.endereco{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 14px;
+    height: 55px;
+    background-color: #d3d1cf;
+}
+
+.endereco:hover{
+    background-color: #c6c4c0;
+}
+
+.endereco p{
+    font-family: 'Montserrat';
+    font-weight: 100;
+}
+
+.endereco a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #c6c4c0;
+}
+
+.endereco a:hover{
+    color: #FFFC00;
+}
+
+.endereco i{
+    background-color: #33312f;
+    padding: 7px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 2vw;
+    height: 4.7vh;
+    text-align: center;
+}
+
+.endereco i:hover{
+    background-color: #ff5700;
+    transition: all 0.6s ease;
+    color: #fff;
+}
+
+/* ==
+INFORMAÇÕES - TEL
+== */
+
+.tel{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 14px;
+    height: 55px;
+    background-color: #d3d1cf;
+}
+
+.tel:hover{
+    background-color: #c6c4c0;
+}
+
+.tel p{
+    font-family: 'Montserrat';
+    font-weight: 100;
+}
+
+.tel a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #c6c4c0;
+}
+
+.tel a:hover{
+    color: #FFFC00;
+}
+
+.tel i{
+    background-color: #33312f;
+    padding: 7px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 2vw;
+    height: 4.7vh;
+    text-align: center;
+}
+
+.tel i:hover{
+    background-color: #25D366;
+    transition: all 0.6s ease;
+    color: #fff;
+}
+
+
+/* ==
+INFORMAÇÕES - FACEBOOK
+== */
+
+.facebook{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 14px;
+    height: 55px;
+    background-color: #d3d1cf;
+}
+
+.facebook:hover{
+    background-color: #c6c4c0;
+}
+
+.facebook p{
+    font-family: 'Montserrat';
+    font-weight: 100;
+}
+
+.facebook a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #c6c4c0;
+}
+
+.facebook a:hover{
+    color: #FFFC00;
+}
+
+.facebook i{
+    background-color: #33312f;
+    padding: 7px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 2vw;
+    height: 4.7vh;
+    text-align: center;
+}
+
+.facebook i:hover{
+    background-color: #3b5999;
+    transition: all 0.6s ease;
+    color: #fff;
+}
+
+
+
+/* ==
+INFORMAÇÕES - EMAIL
+== */
+
+.email{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 14px;
+    height: 55px;
+    background-color: #d3d1cf;
+}
+
+.email:hover{
+    background-color: #c6c4c0;
+}
+
+.email p{
+    font-family: 'Montserrat';
+    font-weight: 100;
+}
+
+.email a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #c6c4c0;
+}
+
+.email a:hover{
+    color: #FFFC00;
+}
+
+.email i{
+    background-color: #33312f;
+    padding: 7px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 2vw;
+    height: 4.7vh;
+    text-align: center;
+}
+
+.email i:hover{
+    background-color: #af0606;
+    transition: all 0.6s ease;
+    color: #fff;
+}
+
+
+/*==================================================
+ * Aside Perfil 
+ * ===============================================*/
+
+.barra-perfil{
+    background-color: #fcbf00;
+    width: 330px;
+    padding: 5px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top: 8px solid #b4860e;
+}
+
+
+.barra-perfil h2{ 
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 20px 0px;
+}
+
+.text-perfil{
+    text-align: justify;
+    width: 290px;
+    padding: 10px;
+    background-color: #ffffff;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    font-size: 15px;
+}
+
+/*==================================================
+ * Aside Skills
+ * ===============================================*/
+
+
+.barra-skill{
+    background-color: #52bc02;
+    width: 330px;
+    padding: 5px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top: 8px solid #2e7d2a;
+}
+
+.barra-skill h2{ 
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 20px 0px;
+}
+
+.habilidade-skill{
+    text-align: center;
+    width: 290px;
+    padding: 10px;
+    background-color: #ffffff;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+
+/*==================================================
+ * Aside Hobbies
+ * ===============================================*/
+
+
+.barra-hobbie{
+    background-color: #e64236;
+    width: 330px;
+    padding: 5px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top: 8px solid #b02821;
+}
+
+.barra-hobbie h2{ 
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 20px 0px;
+}
+
+.text-hobbie{
+    text-align: center;
+    width: 290px;
+    padding: 10px;
+    background-color: #ffffff;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 15px;
+}
+
+
+/*==================================================
+ * Container que engloba Experiencia, Educação e Idioma.
+ * ===============================================*/
+
+.main-principal{
+    background-color: #35203b;
+    padding: 10px;
+    margin-left: 5px;
+    height: 180vh;
+}
+
+
+/*==================================================
+ * Container Experiencia 
+ * ===============================================*/
+
+.experiencia{
+    text-align: center;
+    margin-top: 70px;
+    height: 32%;
+}
+
+
+.experiencia h1{
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+
+/* ==
+EXPERIENCIA ONE 
+== */
+
+.experiencia-one{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.experiencia-one h2{
+    color: #4789c3;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.experiencia-one h3{
+    color: #9d8da1;
+    font-weight: 200;
+    margin-top: 14px;
+    font-size: 15px;
+}
+
+.experiencia-one h4{
+    color: #9d8da1;
+    font-weight: 200;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.experiencia-one p{
+    color: #44365c;
+    font-size: 15px;
+    text-align: justify;
+    text-align: center;
+}
+
+/* ==
+EXPERIENCIA TWO
+== */
+
+.experiencia-two{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.experiencia-two h2{
+    color: #4789c3;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.experiencia-two h3{
+    color: #9d8da1;
+    font-weight: 200;
+    margin-top: 14px;
+    font-size: 15px;
+}
+
+.experiencia-two h4{
+    color: #9d8da1;
+    font-weight: 200;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.experiencia-two p{
+    color: #44365c;
+    font-size: 15px;
+    text-align: justify;
+    text-align: center;
+}
+
+
+/*==================================================
+ * Container Educação
+ * ===============================================*/
+
+.educacao{
+    text-align: center;
+    margin-top: 100px;
+    height: 32%;
+}
+
+.educacao h1{
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+
+/* ==
+SENAC
+== */
+
+.senac{
+    margin-top: 40px;
+}
+
+.senac h2{
+    color: #fcbf00;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.senac h3{
+    color: #9d8da1;
+    font-weight: 200;
+    margin-top: 14px;
+    font-size: 15px;
+}
+
+.senac h4{
+    color: #9d8da1;
+    font-weight: 200;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.senac p{
+    color: #44365c;
+    font-size: 17px;
+    text-align: justify;
+}
+
+/* ==
+MICROLINS
+== */
+
+.microlins{
+    margin-top: 40px;
+}
+
+.microlins h2{
+    color: #fcbf00;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.microlins h3{
+    color: #9d8da1;
+    font-weight: 200;
+    margin-top: 14px;
+    font-size: 15px;
+}
+
+.microlins h4{
+    color: #9d8da1;
+    font-weight: 200;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.microlins p{
+    color: #44365c;
+    font-size: 17px;
+    text-align: justify;
+}
+
+/* ==
+ENSINO MEDIO
+== */
+
+.ensinomedio{
+    margin-top: 40px;
+}
+
+.ensinomedio h2{
+    color: #fcbf00;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.ensinomedio h3{
+    color: #9d8da1;
+    font-weight: 200;
+    margin-top: 14px;
+    font-size: 15px;
+}
+
+.ensinomedio h4{
+    color: #9d8da1;
+    font-weight: 200;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.ensinomedio p{
+    color: #44365c;
+    font-size: 17px;
+    text-align: justify;
+}
+
+
+/*==================================================
+ * Idiomas 
+ * ===============================================*/
+
+.idiomas{
+    text-align: center;
+    margin-top: 100px;
+    height: 32%;
+}
+
+.idiomas h1{
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+/* ==
+LVL INDIOMAS
+== */
+
+.lvl-idiomas{
+    display: flex;
+    justify-content: center;
+    margin: 35px 0px;
+}
+
+/*==
+VERDE
+==*/
+
+.verde{
+    margin: 0px 25px;
+    font-weight: 200;
+    font-size: 25px;
+    color: #58ac25;
+}
+
+/*==
+VERMELHO
+==*/
+
+.vermelho{
+    margin: 0px 25px;
+    font-weight: 200;
+    font-size: 25px;
+    color: #e64236; 
+}
+
+
+/*==
+AZUL
+==*/
+
+.azul{
+    margin: 0px 25px;
+    font-weight: 200;
+    font-size: 25px;
+    color: #4789c3;
+}
+
+
+/* ==
+ICONE INDIOMAS 
+== */
+
+.icone-idiomas{
+    display: flex;
+    justify-content: center;
+}
+
+.icone-idiomas h4{
+    margin: 0px 58px;
+    font-size: 20px;
+}
+
+/*==================================================
+ * Animação dos menus laterais. 
+ * ===============================================*/
+
+/* Wobble Bottom */
+@-webkit-keyframes hvr-wobble-bottom {
+  16.65% {
+    -webkit-transform: skew(-12deg);
+    transform: skew(-12deg);
+  }
+  33.3% {
+    -webkit-transform: skew(10deg);
+    transform: skew(10deg);
+  }
+  49.95% {
+    -webkit-transform: skew(-6deg);
+    transform: skew(-6deg);
+  }
+  66.6% {
+    -webkit-transform: skew(4deg);
+    transform: skew(4deg);
+  }
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+@keyframes hvr-wobble-bottom {
+  16.65% {
+    -webkit-transform: skew(-12deg);
+    transform: skew(-12deg);
+  }
+  33.3% {
+    -webkit-transform: skew(10deg);
+    transform: skew(10deg);
+  }
+  49.95% {
+    -webkit-transform: skew(-6deg);
+    transform: skew(-6deg);
+  }
+  66.6% {
+    -webkit-transform: skew(4deg);
+    transform: skew(4deg);
+  }
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+.hvr-wobble-bottom {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+}
+.hvr-wobble-bottom:hover, .hvr-wobble-bottom:focus, .hvr-wobble-bottom:active {
+  -webkit-animation-name: hvr-wobble-bottom;
+  animation-name: hvr-wobble-bottom;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+/*==================================================
+ * Sombras & Borda de Experiência, Educação e Idiomas.
+ * ===============================================*/
+
+.box-experiencia::after{
+    content: '';
+    box-shadow: 1px 30px 4px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    height: 1.9%;
+    width: 53%;
+    right: 24%;
+    top: 36%;
+    border-radius: 100%;
+}
+
+.box-educacao::after{
+    content: '';
+    box-shadow: 1px 30px 4px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    height: 1.9%;
+    width: 53%;
+    right: 24%;
+    top: 74%;
+    border-radius: 100%;
+}
+
+.box-idiomas::after{
+    content: '';
+    box-shadow: 1px 30px 4px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    height: 1.9%;
+    width: 53%;
+    right: 24%;
+    top: 95%;
+    border-radius: 100%;
+}
+
+
+
+/*==================================================
+ *  --------------*** Media Query ***------------
+ * ===============================================*/
+
+@media screen and (max-width: 1440px) {
+    
+    .endereco i{
+        width: 2.4vw;
+        height: 4.1vh;;
+    }
+    
+    .tel i{
+        width: 2.4vw;
+        height: 4.1vh;
+    }
+    
+    .facebook i{
+        width: 2.4vw;
+        height: 4.1vh;
+    }
+    
+    .email i{
+        width: 2.4vw;
+        height: 4.1vh;
+    }
+    
+}
+
+@media screen and (max-width: 1366px) {
+    
+    .endereco i{
+        width: 2.5vw;
+        height: 4.6vh;
+    }
+    
+    .tel i{
+        width: 2.5vw;
+        height: 4.6vh;
+    }
+    
+    .facebook i{
+        width: 2.5vw;
+        height: 4.6vh;
+    }
+    
+    .email i{
+        width: 2.5vw;
+        height: 4.6vh;
+    }
+    
+    .main-principal{
+        height: 111.7%;
+    }
+    
+    .box-experiencia::after{
+        top: 40%;
+    }
+    
+    .box-educacao::after{
+        top: 82%;
+    }
+    
+    .box-idiomas::after{
+        top: 106.7%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    
+    .endereco i{
+        width: 2.6vw;
+        height: 4.2vh;
+    }
+    
+    .tel i{
+        width: 2.6vw;
+        height: 4.2vh;
+    }
+    
+    .facebook i{
+        width: 2.6vw;
+        height: 4.2vh;
+    }
+    
+    .email i{
+        width: 2.6vw;
+        height: 4.2vh;
+    }
+}
+
+
+
